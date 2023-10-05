@@ -9,6 +9,7 @@ First, serial begin (in this case im disabling the RX pin to use it as a regular
 Serial.begin(115200, SERIAL_8N1, SERIAL_TX_ONLY);
 ```
 Then the relays, these are controlled via serial.
+
 Here is Relay0:
 ```C++
 // Relay0 on
