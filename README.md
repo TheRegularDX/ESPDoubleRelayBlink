@@ -1,10 +1,10 @@
 # ESPDoubleRelayBlink
-this is a simple example of how to use the ESP8266 double relay board from aliexpress with arduino firmware.
+this is a simple example of how to use the ESP8266 serial double relay board from aliexpress with arduino firmware.
 
 # Important bits
-this is a serial relay module, which means that the relays aren't directly connected to the main ESP01 module, instead they are controlled by a built-in mcu that recieves serial commands.
 
-First, serial begin (in this case im disabling the RX pin to use it as a regular GPIO pin for sensors or peripherals, which is sometimes not recommended)
+
+(im disabling the RX pin to use it as a regular GPIO pin for sensors or peripherals, which is sometimes not recommended)
 
 ```C++
 Serial.begin(115200, SERIAL_8N1, SERIAL_TX_ONLY);
